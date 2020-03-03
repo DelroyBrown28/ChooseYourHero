@@ -39,25 +39,13 @@ html {
     .chooseYourHeroButton {
         position: absolute;
         bottom: 130px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
-        color: #131313;
+        background-color: #131313;
+        border-radius: 100px;
+        transition: 0.1s;
+        color: #fff;
         width: 210px;
         height: 35px;
     }
-
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
-
-    }
-
-
 
 
 }
@@ -88,26 +76,14 @@ html {
     .chooseYourHeroButton {
         position: absolute;
         bottom: 150px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
+        background-color: #131313;
+        border-radius: 100px;
+        transition: 0.1s;
         font-size: 20px;
-        color: #131313;
+        color: #fff;
         width: 220px;
         height: 45px;
     }
-
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
-
-    }
-
-
 
 
 }
@@ -138,25 +114,54 @@ html {
     .chooseYourHeroButton {
         position: absolute;
         bottom: 210px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
+        background-color: #131313;
+        border-radius: 100px;
+        color: #fff;
+        transition: 0.1s;
         font-size: 20px;
-        color: #131313;
+        color: #fff;
         width: 235px;
         height: 55px;
     }
 
-    /*-----HOVERS & SUCH--*/
 
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
+}
 
+@media only screen and (min-device-height : 812px) {
+
+    body,
+    html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chooseYourHeroButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
 
+    .powerFist {
+        position: absolute;
+        height: 300px;
+        top: 130px;
+
+    }
+
+    .chooseYourHeroButton {
+        position: absolute;
+        bottom: 240px;
+        background-color: #131313;
+        color: #fff;
+        border-radius: 100px;
+        transition: 0.1s;
+        font-size: 20px;
+        color: #fff;
+        width: 235px;
+        height: 55px;
+    }
 
 
 
@@ -188,76 +193,15 @@ html {
     .chooseYourHeroButton {
         position: absolute;
         bottom: 240px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
+        background-color: #131313;
+        color: #fff;
+        border-radius: 100px;
         font-size: 20px;
-        color: #131313;
+        transition: 0.1s;
+        color: #fff;
         width: 235px;
         height: 55px;
     }
-
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
-
-    }
-
-
-
-
-}
-
-@media only screen and (min-device-height : 812px) {
-
-    body,
-    html {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .chooseYourHeroButton {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .powerFist {
-        position: absolute;
-        height: 300px;
-        top: 130px;
-
-    }
-
-    .chooseYourHeroButton {
-        position: absolute;
-        bottom: 240px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
-        font-size: 20px;
-        color: #131313;
-        width: 235px;
-        height: 55px;
-    }
-
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
-
-    }
-
-
 
 
 }
@@ -290,24 +234,16 @@ html {
     .chooseYourHeroButton {
         position: absolute;
         bottom: 240px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
+        background-color: #131313;
+        border-radius: 100px;
+        transition: 0.1s;
+        color: #fff;
         font-size: 25px;
-        color: #131313;
+        color: #fff;
         width: 350px;
         height: 55px;
     }
 
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
-
-    }
 
 }
 
@@ -336,24 +272,75 @@ html {
 
     .chooseYourHeroButton {
         position: absolute;
+        background-color: #131313;
+        border-radius: 100px;
         bottom: 300px;
-        border: 1px solid #131313;
-        background-color: #f1f1f1;
-        border-radius: 5px;
+        color: #fff;
         font-size: 25px;
-        color: #131313;
         width: 500px;
         height: 75px;
-    }
-
-    /*-----HOVERS & SUCH--*/
-
-    .chooseYourHeroButton:hover {
-        -webkit-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-        box-shadow: inset 0px 0px 11px 0px rgba(0, 0, 0, 0.3);
-
+        transition: 0.1s;
 
     }
+
+
+}
+
+/* desktop/laptops----------- */
+@media only screen and (min-width : 1224px) and (max-width : 1920px) {
+
+    body,
+    html {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chooseYourHeroButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .powerFist {
+        position: absolute;
+        height: 400px;
+        top: 175px;
+
+    }
+
+    .chooseYourHeroButton {
+        position: absolute;
+        bottom: 200px;
+        background-color: #131313;
+        border-radius: 100px;
+        font-size: 25px;
+        color: #fff;
+        width: 360px;
+        height: 60px;
+        cursor: pointer;
+        transition: 0.1s;
+
+    }
+
+
+}
+
+/*-----HOVERS & SUCH--*/
+
+.chooseYourHeroButton:hover {
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.chooseYourHeroButton:active {
+    box-shadow: none;
 
 }
