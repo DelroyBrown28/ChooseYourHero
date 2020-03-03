@@ -8,6 +8,7 @@ $(document).ready(function () {
     function offScreen() {
         $(".powerFist").toggle("slow");
         $(".chooseYourHeroButton").toggle("slow");
+        $(".chooseYourHeroButton-gradient").toggle("fast");
     }
 
 });
